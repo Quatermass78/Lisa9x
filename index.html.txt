@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lisa-9X Neon Console</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="app">
+  <div id="header">Lisa-9X Cyberpunk Console</div>
+  <div id="terminal">
+    <div id="output"></div>
+    <input id="input" autocomplete="off" placeholder="Type a command or talk to Lisa…" />
+  </div>
+  <button id="voiceBtn" title="Toggle Voice Input">🎤</button>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
